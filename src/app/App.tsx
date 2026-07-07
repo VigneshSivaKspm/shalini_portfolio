@@ -866,7 +866,7 @@ export default function App() {
             >
               SHALINI S<span style={{ color: "#27ae60" }}>.</span>
             </span>
-            <p className="text-xs text-white/30">© 2024 Shalini S. All Rights Reserved.</p>
+            <p className="text-xs text-white/30">© 2026 Shalini S. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
