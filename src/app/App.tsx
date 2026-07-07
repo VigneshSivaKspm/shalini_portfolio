@@ -334,24 +334,8 @@ export default function App() {
             alt="Pharmaceutical research environment"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          {/* Molecular overlay */}
+          {/* Tint overlay */}
           <div className="absolute inset-0 bg-[#1a2332]/30" />
-          <svg
-            className="absolute inset-0 w-full h-full opacity-10"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <pattern id="mol" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
-              <circle cx="20" cy="20" r="3" fill="white" />
-              <circle cx="60" cy="60" r="3" fill="white" />
-              <circle cx="60" cy="20" r="2" fill="white" />
-              <circle cx="20" cy="60" r="2" fill="white" />
-              <line x1="20" y1="20" x2="60" y2="20" stroke="white" strokeWidth="1" />
-              <line x1="60" y1="20" x2="60" y2="60" stroke="white" strokeWidth="1" />
-              <line x1="60" y1="60" x2="20" y2="60" stroke="white" strokeWidth="1" />
-              <line x1="20" y1="60" x2="20" y2="20" stroke="white" strokeWidth="1" />
-            </pattern>
-            <rect width="100%" height="100%" fill="url(#mol)" />
-          </svg>
           {/* Green accent bar */}
           <div className="absolute left-0 top-0 bottom-0 w-1" style={{ backgroundColor: "#27ae60" }} />
 
